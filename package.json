@@ -1,0 +1,24 @@
+{
+  "name": "ledgerbackend",
+  "version": "1.0.0",
+  "description": "Building Ledger System for Banks to process transactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mxkarthik/LedgerBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mxkarthik/LedgerBackend/issues"
+  },
+  "homepage": "https://github.com/Mxkarthik/LedgerBackend#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
