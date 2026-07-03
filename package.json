@@ -4,7 +4,9 @@
   "description": "Building Ledger System for Banks to process transactions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,9 @@
   },
   "homepage": "https://github.com/Mxkarthik/LedgerBackend#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "env": "^0.0.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3"
   }
 }
